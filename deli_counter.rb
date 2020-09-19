@@ -5,8 +5,7 @@ def line(names)
   if names.empty?
     puts "The line is currently empty."
   else
-    binding.pry
-    positions = names.map.with_index(1) {|name, index| "#{index}. #{name}"}
+      positions = names.map.with_index(1) {|name, index| "#{index}. #{name}"}
   end
 end
 
