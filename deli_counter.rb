@@ -6,7 +6,7 @@ def line(names)
     puts "The line is currently empty."
   else
       
-      positions = names.map.with_index(1) {|name, index| " #{index}. #{name}"}
+      positions = names.map.with_index(1) {|name, index| " #{index}.s#{name}"}
       string_positions = positions.join("  ")
       "The line is currently: " + string_positions
       binding.pry
