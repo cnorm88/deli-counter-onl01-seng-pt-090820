@@ -20,7 +20,7 @@ def now_serving(names)
   if names.empty?
   puts "There is nobody waiting to be served!"
   else
-    
+    binding.pry
   end
 end
  
