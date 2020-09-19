@@ -14,12 +14,8 @@ end
 def take_a_number(names, end_of_line)
   names << end_of_line
   puts "Welcome, #{end_of_line}. You are number #{names.length} in line."
-  binding.pry
 end
 
-# def take_a_number (katz_deli, string)
-#   if katz_deli.length > 1
-#     new_array = "Welcome, #{katz_deli}. You are number  in line."
-#   end
-# end  
+
+ 
 
