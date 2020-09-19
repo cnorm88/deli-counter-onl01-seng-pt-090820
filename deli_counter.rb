@@ -12,7 +12,8 @@ def line(names)
 end
 
 def take_a_number(names, end_of_line)
-  new_line = names << end_of_line
+  names << end_of_line
+  puts
   
 end
 
