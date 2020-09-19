@@ -21,8 +21,6 @@ def now_serving(names)
   puts "There is nobody waiting to be served!"
   else
     names.shift
-    binding.pry
-    
   end
 end
  
