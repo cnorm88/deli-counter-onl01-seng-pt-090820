@@ -9,6 +9,7 @@ def line(names)
       positions = names.map.with_index(1) {|name, index| "#{index}. #{name}"}
       binding.pry
       string_positions = positions.join
+      "The line is currently:" + string_positions
   end
 end
 
