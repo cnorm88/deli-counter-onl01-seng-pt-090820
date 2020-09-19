@@ -17,7 +17,7 @@ def take_a_number(names, end_of_line)
 end
 
 def now_serving(names)
-  if
+  if names.empty?
   else
   puts "There is nobody waiting to be served!"
   end
