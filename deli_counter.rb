@@ -16,7 +16,7 @@ def take_a_number(names, end_of_line)
   puts "Welcome, #{end_of_line}. You are number #{names.length} in line."
 end
 
-def now_serving
+def now_serving(line)
 end
  
 
