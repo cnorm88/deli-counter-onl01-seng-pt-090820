@@ -17,6 +17,11 @@ def take_a_number(names, end_of_line)
 end
 
 def now_serving(line)
+  if
+  else
+  puts 
+  
+  end
 end
  
 
