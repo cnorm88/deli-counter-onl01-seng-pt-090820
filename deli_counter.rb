@@ -11,6 +11,7 @@ def line(names)
   end
 end
 
+def take_a_number(namet)
 
 # def take_a_number (katz_deli, string)
 #   if katz_deli.length > 1
