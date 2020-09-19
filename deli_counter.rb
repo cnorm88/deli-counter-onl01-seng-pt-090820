@@ -7,7 +7,7 @@ def line(names)
   else
       
       positions = names.map.with_index(1) {|name, index| "#{index}. #{name}"}
-      string_positions = positions.join("")
+      string_positions = positions.join(' ')
       "The line is currently: " + string_positions
       binding.pry
   end
