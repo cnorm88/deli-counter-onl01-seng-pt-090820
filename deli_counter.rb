@@ -13,7 +13,7 @@ end
 
 def take_a_number(names, end_of_line)
   names << end_of_line
-  puts "Welcome, #{end_of_line}. You are number #{names.} in line."
+  puts "Welcome, #{end_of_line}. You are number #{names.length} in line."
   
 end
 
